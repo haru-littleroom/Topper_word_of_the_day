@@ -1,0 +1,128 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    background-image: url(images/background_pc.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #lang_menu{
+    display:flex;
+    align-items: center;
+    top:32px;
+    border-radius: 50%;
+  }a{
+    text-decoration: none;
+    font-size: 20px;
+    padding:8px 40px;
+    margin: 0 10px;
+    background-color: #FBD89F;
+    font-weight: bold;
+    color: #d1a669;
+    box-shadow: 0 5px #cea66f;
+    border-radius: 40px;
+  }
+  #lang_menu a:hover{
+    background-color:#ffe2b5;
+  }
+  #lang_menu a:active{
+    box-shadow: none;
+    position: relative;
+    top:5px;
+  }
+
+  #lang_menu .en{
+    pointer-events: none;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+
+  #container{
+    width: 120%;
+    height: 120%;
+    max-width: 600px;
+    max-height: 420px;
+    margin: 40px 0 16px;
+  }
+  
+  #inner_container{
+    height: 100%;
+    width: 100%;
+    float: left;
+    background: url(images/en_00.png);
+    background-size: contain;
+  }img{
+    width: 100%;
+    height: 100%;  
+  }
+  
+  #button_container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  button{
+    width: 100%;
+    height: 60px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: #FFBA40;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing:2px;
+    box-shadow: 0 10px #be9459;
+  }
+  button:hover{
+    background-color: #ffc640;
+  }
+  button:active{
+    box-shadow: none;
+    position: relative;
+    top:10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    #container{
+      width: 100vw;
+      height: 71vw;
+      max-width: 600px;
+      max-height: 420px;
+      margin: 32px 0 12px;
+    }
+  
+    a{
+      font-size: 16px;
+      padding: 6px 24px;
+    }
+  
+    button{
+      height: 48px;
+      font-size: 20px;
+      box-shadow: 0 7px #be9459;
+    }:active{
+      top: 7px;
+    }
+  
+    #inner_container img{
+      height: auto;
+    }
+  }

@@ -1,9 +1,23 @@
 // Get all the images
 image_array = [
-    '1.jpg',
-    '2.jpg',
-    '3.jpg',
-    '4.jpg'
+    'en_01.png',
+    'en_02.png',
+    'en_03.png',
+    'en_04.png',
+    'en_05.png',
+    'en_06.png',
+    'en_07.png',
+    'en_08.png',
+    'en_09.png',
+    'en_10.png',
+    'en_11.png',
+    'en_12.png',
+    'en_13.png',
+    'en_14.png',
+    'en_15.png',
+    'en_16.png',
+    'en_17.png',
+    'en_18.png',
   ]
   
   function get_random_image(){
