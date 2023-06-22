@@ -18,6 +18,8 @@ image_array = [
     'zh_16.png',
     'zh_17.png',
     'zh_18.png',
+    'zh_19.png',
+    'zh_20.png',
   ]
   
   function get_random_image(){
